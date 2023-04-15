@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    /*Justificar a la derecha*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 150px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: rgb(21, 21, 21);
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://www.pngkit.com/png/full/116-1160030_-.png);
+    width: 40px;
+    height: 25px;
+    background-size: contain;
+    margin-right: 20px;
+}
+nav .nav-right-section img{
+    width: 32px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 50px;
+    background-size: contain;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+main .main-logo img{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    background-size: contain;
+}
+
+main .main-input{
+    width: 580px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main .main-input-container{
+    width: 600px;
+    border-radius: 80px;
+    border: 1px solid #def1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    border: none;
+    width: 450px;
+    height: 35px;
+    outline: none;   
+}
+
+main .main-input-container:hover{
+    box-shadow: 2px 2px 2px 2px #20212447 ;
+}
+
+main .main-input .search-icon{
+    background-image: url("https://w7.pngwing.com/pngs/456/948/png-transparent-computer-icons-desktop-web-search-engine-wordpress-com-search-icon-search-logo-website-circle-wordpresscom-thumbnail.png");
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    background-repeat: no-repeat;
+    height: 15px;
+}
+
+main .main-input .micro-icon{
+    background-image: url("https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png");
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main .main-input .cam-icon{
+    background-image: url("https://www.shutterstock.com/image-vector/kerala-india-february-23-2023-260nw-2266081455.jpg");
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main .main-bottons{
+    width: 550px;
+    margin: 0 auto;
+}
+main .main-bottons div{
+    display: inline-block;
+}
+
+main .main-bottons button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color: #3c404365;
+    padding: 0 15px;
+}
+main .main-bottons button:hover{
+    border: 1px solid #3c404365;
+    cursor: pointer;
+    color: #202124;
+}
+
+/*  Footer */
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    font-size: 13px;
+    border-top: 1px #e4e4e4;
+    /* Dividido en columnas*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    bottom: 0;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    color: #70757a;
+    margin: 10px;
+
+}
